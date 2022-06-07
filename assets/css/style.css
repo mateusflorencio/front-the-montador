@@ -146,7 +146,7 @@
   justify-content: space-between;
   align-items: center;
 
-  height: 90px;
+  height: 80px;
   color: white;
 }
 
@@ -201,6 +201,16 @@
 .banner-right {
   width: 50%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.quadrado {
+  display: flex;
+  position: absolute;
+  left: 1100px;
+  top: 400px;
+  z-index: -1000;
 }
 
 .banner-button {
@@ -214,4 +224,53 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* two */
+
+.two {
+  background-color: #f8f8f8;
+  height: 400px;
+  margin-top: 45px;
+}
+.two-title {
+  padding-top: 45px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.two-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* tree */
+
+.tree {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tree-text {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.carrossel-brands {
+  display: flex;
+  margin-top: 30px;
+}
+
+.slide {
+  margin: 20px;
+}
+
+.tree img {
+  margin-top: 40px;
 }

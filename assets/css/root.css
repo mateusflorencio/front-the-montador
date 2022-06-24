@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('./efeito-flutuante.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-white: #fff;
+  --main-yellow: #f1c40f;
+  --main-grey: #d4d4d4;
+  --main-grey-700: #979797;
+  --main-blue: #1704c2;
+  --main-blue-200: #F1F6FD;
+  --main-green: #27ae60;
+  --main-red: #d63031;
+  --main-grey-200: #f8f8f8;
+}

@@ -1,0 +1,75 @@
+@import url(./root.css);
+@import url(./shortcuts.css);
+@import url(./efeito-flutuante.css);
+
+/* menu */
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+  color: white;
+}
+
+.item-menu {
+  margin: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.menu img {
+  margin-right: 20px;
+}
+
+.first-section__left {
+  width: 40%;
+}
+
+.first-section__img {
+  width: 400px;
+  height: auto;
+}
+
+.second-section__img {
+  height: 150px;
+  margin-top: 30px;
+}
+
+.carrossel {
+  overflow: hidden;
+  height: 150px;
+  width: 500px;
+}
+
+.carrossel__container {
+  display: flex;
+  transition: transform 2s ease;
+  transform: translateX(0);
+}
+
+.carrossel__img {
+  object-fit: contain;
+  height: 100px;
+  max-width: 300px;
+  margin: 60px;
+}
+
+.resultado__image {
+  width: 500px;
+}
+
+.resultado {
+  justify-content: space-around;
+  width: 100%;
+}
+
+.second-section__card {
+  height: 300px;
+  width: 250px;
+}

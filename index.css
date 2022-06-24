@@ -1,6 +1,6 @@
-@import url(./root.css);
-@import url(./shortcuts.css);
-@import url(./efeito-flutuante.css);
+@import url(./assets/css/root.css);
+@import url(./assets/css/shortcuts.css);
+@import url(./assets/css/efeito-flutuante.css);
 
 /* menu */
 .nav-menu {

@@ -80,8 +80,8 @@
 }
 
 .fouth__card__img {
-  width: 40px;
+  width: 60px;
   margin-right: 20px;
   margin-top: 10px;
-  s
+  z-index: 2000;
 }

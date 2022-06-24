@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,8 +15,10 @@
   --main-grey-700: #979797;
   --main-rosa: #e15f41;
   --main-blue: #1704c2;
+  --main-blue-200: #F1F6FD;
   --main-green: #27ae60;
   --main-red: #d63031;
+  --main-grey-200: #f8f8f8;
 }
 
 /* shortcuts */
@@ -48,6 +52,7 @@
 .bg-white {
   background-color: var(--main-white);
 }
+
 .bg-rosa {
   background-color: var(--main-rosa);
 }
@@ -60,8 +65,16 @@
   background-color: var(--main-blue);
 }
 
+.bg-blue-200 {
+  background-color: var(--main-blue-200);
+}
+
 .bg-grey {
   background-color: var(--main-grey);
+}
+
+.bg-grey_200 {
+  background-color: var(--main-grey-200);
 }
 
 .bg-grey-700 {
@@ -113,14 +126,25 @@
 
 /* cards */
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+}
 
-  border: 1px solid var(--main-grey);
-  border-radius: 20px;
-  display: flex;
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.75rem 1.75rem;
+}
 
-  padding: 20px;
+.card:hover {
+  background-color: var(--main-blue);
+  color: var(--main-white);
 }
 
 /* list */
@@ -182,6 +206,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .banner-title {
   font-size: 70px;
   font-family: "Poppins";
@@ -233,6 +258,7 @@
   height: 400px;
   margin-top: 45px;
 }
+
 .two-title {
   padding-top: 45px;
   font-size: 24px;
@@ -294,4 +320,36 @@
 
 .tree img {
   margin-top: 40px;
+}
+
+.text--big {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.resultado__image {
+  width: 500px;
+}
+
+.resultado {
+  justify-content: space-around;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.line-vertical-blue {
+  height: 2px;
+  width: 100%;
+  background-color: var(--main-blue);
 }
